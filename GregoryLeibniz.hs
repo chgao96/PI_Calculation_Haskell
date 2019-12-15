@@ -1,5 +1,5 @@
-
-ox=[1.0,3.0..3000000] -- Or whatever upper limit. This takes a couple of seconds
+numIters=400000 -- Or whatever upper limit. This takes a couple of seconds
+ox=[1.0,3.0..numIters/2] 
 cx=cycle[4.0,-4.0]
 
 calcPi:: [Double] -> [Double] ->  Double
